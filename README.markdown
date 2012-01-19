@@ -12,7 +12,7 @@ sample var from Class B
 undefined
 ```
 
-** /app/index.coffee: **
+**/app/index.coffee: **
 
 ```coffeescript
 Spine = require('spine')
@@ -31,7 +31,7 @@ class App extends Spine.Controller
 module.exports = App
 ```   
 
-** /app/controllers/ClassA.coffee:**
+**/app/controllers/ClassA.coffee:**
 
 ```coffeescript
 Spine = require('spine')
@@ -47,7 +47,7 @@ class ClassA extends Spine.Controller
 module.exports = ClassA
 
 ```   
-** /app/controllers/ClassB.coffee: **
+**/app/controllers/ClassB.coffee: **
 
 ```coffeescript
 Spine = require('spine')
