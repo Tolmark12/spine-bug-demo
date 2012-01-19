@@ -3,7 +3,7 @@
 #### Bug
 Spine (or is it coffescript / javascript?) has issues when two classes require each other. It appears that the class that first requires the second class can do so, however when the second attempts to require the first, it is unable to do so.
 
-#### The code at a glance:
+#### At A Glance:
 
 This app prints the following to the console:
 
