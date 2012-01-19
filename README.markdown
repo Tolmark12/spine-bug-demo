@@ -6,12 +6,13 @@ Spine (or is it coffescript / javascript?) has issues when two classes require e
 #### The code at a glance:
 
 The app prints the following to the console:
+
 ```
 sample var from Class B
 undefined
 ```
 
-______________________ /app/index.coffee:
+##### /app/index.coffee:
 
 ```coffeescript
 Spine = require('spine')
@@ -30,7 +31,7 @@ class App extends Spine.Controller
 module.exports = App
 ```   
 
-______________________ /app/controllers/ClassA.coffee:
+##### /app/controllers/ClassA.coffee:
 
 ```coffeescript
 Spine = require('spine')
@@ -46,7 +47,7 @@ class ClassA extends Spine.Controller
 module.exports = ClassA
 
 ```   
-______________________ /app/controllers/ClassB.coffee::
+##### /app/controllers/ClassB.coffee::
 
 ```coffeescript
 Spine = require('spine')
